@@ -12,4 +12,10 @@ export class Ejercicio2Component implements OnInit {
   ngOnInit(): void {
   }
 
+  dias:string[]=["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+
+  public borrarDia(){
+    this.dias.pop();
+  }
+
 }

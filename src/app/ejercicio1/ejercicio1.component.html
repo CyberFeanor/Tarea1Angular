@@ -1,1 +1,10 @@
-<p>ejercicio1 works!</p>
+<p>listado heroes!</p>
+
+<ul>
+  <li *ngFor="let mes of meses;let i = index">
+    {{i+1}} - {{mes}}
+  </li>
+  <!-- <button (click)="delete()">Borrar un elemento</button> -->
+  <button (click)="borrarMes()">Borrar un mes</button>
+
+</ul>

@@ -12,4 +12,11 @@ export class Ejercicio3Component implements OnInit {
   ngOnInit(): void {
   }
 
+
+  flores:string[]=["Rosa","Margarita","Manzanilla","Diente de León","Tulipan","Petunia","Jazmin","Lavanda"];
+
+  public borrarFlores(){
+    this.flores = [];
+  }
+
 }

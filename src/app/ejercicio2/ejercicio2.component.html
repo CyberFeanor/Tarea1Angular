@@ -1,1 +1,10 @@
-<p>ejercicio2 works!</p>
+<p>listado dias!</p>
+
+<ul>
+  <li *ngFor="let dia of dias;let i = index">
+    {{i+1}} - {{dia}}
+  </li>
+  <!-- <button (click)="delete()">Borrar un elemento</button> -->
+  <button (click)="borrarDia()">Borrar un dia</button>
+
+</ul>

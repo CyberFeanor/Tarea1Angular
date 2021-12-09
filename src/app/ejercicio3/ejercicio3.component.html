@@ -1,1 +1,6 @@
 <p>ejercicio3 works!</p>
+
+<ul>
+  <li *ngFor="let flor of flores;let i = index">{{ i+1 }} - {{ flor }}</li>
+  <button (click)="borrarFlores()">Borrar Flores</button>
+</ul>

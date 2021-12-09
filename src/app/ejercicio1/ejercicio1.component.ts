@@ -12,4 +12,9 @@ export class Ejercicio1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  meses:string[] = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+
+  public borrarMes() {
+    this.meses.shift();
+  }
 }

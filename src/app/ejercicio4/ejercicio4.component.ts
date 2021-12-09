@@ -12,4 +12,11 @@ export class Ejercicio4Component implements OnInit {
   ngOnInit(): void {
   }
 
+  comidas:string[]=["Macarrones","Lasaña","Chuleton","Lomo Bajo","Espaguettis","Arroz con Tomate","Costillas","Torreznos"];
+
+  public borrarComidas(){
+    this.comidas = [];
+  }
+
+
 }
